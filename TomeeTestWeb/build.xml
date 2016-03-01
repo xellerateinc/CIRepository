@@ -21,7 +21,7 @@
   </target>
 
 	  <target name="build" 
-	        description="compile the source">
+	        description="building the war file">
 	    <!-- Compile the java code from ${src} into ${build} -->
 	    <javac srcdir="${src}" destdir="${build}"/>
 	  	<war destfile="${ant.project.name}.war" webxml="WebContent/WEB-INF/web.xml">
